@@ -15,10 +15,11 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-wrap justify-center">
-      <div className="w-full md:w-1/2">
-          <Image src="/trophy.jpeg" alt="Trophy" width={350} height={100} />
-        </div>
-        <div className="w-full md:w-1/2">
+      <div className="mx-auto w-full md:w-1/2">
+  <Image src="/trophy.jpeg" alt="Trophy" width={350} height={100} layout="responsive" />
+</div>
+
+        <div className=" mx-auto w-full md:w-1/2">
           <p className="font-bold pb-3 mt-6">
             C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.
           </p>
@@ -29,37 +30,38 @@ export default function Home() {
               old inefficient pumps with 5 Star rated energy efficient smart pumps with IoT enabled control panel. </li>
           </ul>
           <Image src="/present.jpeg" alt="Presentation" width={600} height={600} />
-          <p className="mt-4">
+          <p className="mt-4  mx-auto pl-2">
             Government of India has awarded the <span className="font-bold">National Energy Conservation Award 2018.</span>
             Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha &amp; Shri. Raj Kumar Singh, Honorable Minister of State.
           </p>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center  mx-auto ">
         <p className="my-4 ">
           INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
         </p>
-        <div className="flex justify-center align-middle">
+        <div className="flex justify-center align-middle  mx-auto ">
           <Image src="/machine.jpeg" alt="Products" width={800} height={200} />
         </div>
         <p className="my-6">Valves - Pumps-Pipes - Iot Drives &amp; Controllers - Wires &amp; Cables - Solar System - Motors</p>
       </div>
 
-      <div className="text-center">
+      <div className="text-center  mx-auto ">
         <p className="font-bold my-3">C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</p>
         <p className="mb-4">CHEMICALS &amp; PROCESS POWER WATER &amp; WASTE WATER OILS &amp; GAS PHARMA SUGARS &amp; DISTILLERIES PAPER &amp; PULP MARINE &amp; DEFENCE METAL &amp; MINING FOOD &amp; BEVERAGE PETROCHEMICAL &amp; REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE &amp; RESIDENTIAL</p>
       </div>
-      <div className="flex justify-between align-middle md:px-52 px-10 bg-red-500 py-7">
-        <a href="#">
-          <p className="text-white">Toll free 1800 200 1234</p>
-        </a>
-        <a href="#">
-          <p className="text-white">www.facebook.com/cripumps</p>
-        </a>
-        <a href="#">
-          <p className="text-white">www.crigroups.com</p>
-        </a>
-      </div>
+      <div className="flex flex-col md:flex-row justify-between items-center md:px-52 px-10 bg-red-500 py-7 text-center md:text-left">
+  <a href="#" className="mb-4 md:mb-0">
+    <p className="text-white">Toll free 1800 200 1234</p>
+  </a>
+  <a href="#" className="mb-4 md:mb-0">
+    <p className="text-white">www.facebook.com/cripumps</p>
+  </a>
+  <a href="#">
+    <p className="text-white">www.crigroups.com</p>
+  </a>
+</div>
+
     </main>
   );
 }
