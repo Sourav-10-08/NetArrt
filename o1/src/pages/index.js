@@ -14,13 +14,12 @@ export default function Home() {
           height={200}
         />
       </div>
-      <div className="flex flex-wrap justify-center align-middle">
-        <div className="w-50">
+      <div className="flex flex-wrap justify-center">
+        <div>
           <Image src="/trophy.jpeg" alt="Trophy" width={350} height={100} />
         </div>
         <div>
           <p className="font-bold pb-3 mt-6">
-            {" "}
             C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.
           </p>
           <ul className="list-disc mx-8 mb-5">
@@ -29,28 +28,26 @@ export default function Home() {
             <li>C.R.I. is the highest contributor in the country for the projects of EESL (Energy Efficiency Services Limited) to replace the 
               old inefficient pumps with 5 Star rated energy efficient smart pumps with IoT enabled control panel. </li>
           </ul>
-          <Image src="/present.jpeg" alt="Trophy" width={600} height={600} />
+          <Image src="/present.jpeg" alt="Presentation" width={600} height={600} />
           <p className="mt-4">
-          Government of India has awarded the {" "}
-            <span className="font-bold">National Energy Conservation Award 2018.</span>{" "}
-            Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
+            Government of India has awarded the <span className="font-bold">National Energy Conservation Award 2018.</span>
+            Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha &amp; Shri. Raj Kumar Singh, Honorable Minister of State.
           </p>
         </div>
       </div>
       <div className="text-center">
         <p className="my-4 ">
-        INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
+          INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
         </p>
         <div className="flex justify-center align-middle">
           <Image src="/machine.jpeg" alt="Products" width={800} height={200} />
         </div>
-        <p className="my-6">Valves - Pumps-Pipes - Iot Drives & Controllers - Wires & Cables - Solar System - Motors</p>
+        <p className="my-6">Valves - Pumps-Pipes - Iot Drives &amp; Controllers - Wires &amp; Cables - Solar System - Motors</p>
       </div>
 
       <div className="text-center">
-        <p className="font-bold my-3">C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS
-</p>
-        <p className="mb-4">CHEMICALS & PROCESS POWER WATER & WASTE WATER OILS & GAS PHARMA SUGARS & DISTILLERIES PAPER & PULP MARINE & DEFENCE METAL & MINING FOOD & BEVERAGE PETROCHEMICAL & REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE & RESIDENTIAL</p>
+        <p className="font-bold my-3">C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</p>
+        <p className="mb-4">CHEMICALS &amp; PROCESS POWER WATER &amp; WASTE WATER OILS &amp; GAS PHARMA SUGARS &amp; DISTILLERIES PAPER &amp; PULP MARINE &amp; DEFENCE METAL &amp; MINING FOOD &amp; BEVERAGE PETROCHEMICAL &amp; REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE &amp; RESIDENTIAL</p>
       </div>
       <div className="flex justify-between align-middle md:px-52 px-10 bg-red-500 py-7">
         <a href="#">
