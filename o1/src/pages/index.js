@@ -15,7 +15,7 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-wrap justify-center align-middle">
-        <div>
+        <div className="w-50">
           <Image src="/trophy.jpeg" alt="Trophy" width={350} height={100} />
         </div>
         <div>
