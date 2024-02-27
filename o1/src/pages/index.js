@@ -15,10 +15,10 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-wrap justify-center">
-        <div>
+      <div className="w-full md:w-1/2">
           <Image src="/trophy.jpeg" alt="Trophy" width={350} height={100} />
         </div>
-        <div>
+        <div className="w-full md:w-1/2">
           <p className="font-bold pb-3 mt-6">
             C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.
           </p>
